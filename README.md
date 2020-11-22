@@ -14,3 +14,6 @@ Then, we feed that output to a regular fully connected network to create an bina
 This model is created to compare an image with all images in the dataset and if it is similar to one of them, return its label.
 
 This model is still under construction.
+
+
+Note to Myself : You may use cosine similarity instead of difference in the siameese model next time.
