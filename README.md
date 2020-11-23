@@ -4,7 +4,7 @@ You can download the pretrained VGG-19 models weights from : https://www.kaggle.
 
 After that , VGG-19.ipynb notebook creates the full model from those weights and saves it as a full model.
 
-Then, we use the VGG-19 models first 4 layers as our siameese network.
+Then, we use the VGG-19 models first 6 layers as our siameese network.
 
 After making that model predict our images, we get two matrices. After we calculate the distance between these two matrices, we get a variable that contains the difference of two images' features.
 
